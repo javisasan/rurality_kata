@@ -1,0 +1,19 @@
+{
+    "name": "rurality/rurality-kata",
+    "type": "project",
+    "require": {
+        "php": "^7.2",
+        "ramsey/uuid": "^3.8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
